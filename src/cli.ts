@@ -18,7 +18,7 @@ u.processpath   = process.cwd();
 u.abspath       = __dirname;
 
 
-u.log(chalk.bgBlack.yellow(` BT Client: ${cmd.action} `))
+u.log(chalk.bgYellow.black(` RPM action: ${cmd.action} > ${cmd.arg} `))
 
 if(u.fileExists(actionPath)) {
     require(actionPath)[cmd.arg](cmd.val1, cmd.val2);
