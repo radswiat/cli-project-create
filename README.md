@@ -1,4 +1,5 @@
 # RPM cli
+Easy way to create your own boilerplate for any project.
 
 # Installation
 ```
@@ -24,4 +25,3 @@ sudo rpm set credentials username password
 sudo rpm project create
 ```
 
-node 6.9.1
